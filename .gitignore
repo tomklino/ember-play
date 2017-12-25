@@ -1,5 +1,7 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+.git_key_pointer
+
 # compiled output
 /dist
 /tmp
