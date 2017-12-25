@@ -1,0 +1,29 @@
+<h2>{{title}}</h2>
+
+{{#each accounts as |account|}}
+
+<div class="container">
+  <div class="col">
+    <div class="col-title">{{account.id}}</div>
+  </div>
+  <div class="col">
+    <div class="col-title">{{account.reseller}}</div>
+  </div>
+  <div class="col">
+    <div class="col-title">{{account.status}}</div>
+  </div>
+  <div class="col">
+    <div class="col-title">{{account.email}}</div>
+  </div>
+  <div class="col">
+    <div class="col-title">{{account.telephone}}</div>
+  </div>
+  <div class="col">
+    <div class="col-title">{{account.faxNumber}}</div>
+  </div>
+  <div class="col">
+    <div class="col-title">{{account.creationDate}}</div>
+  </div>
+</div>
+
+{{/each}}
